@@ -1,0 +1,85 @@
+1. יצירת פרוייקט:
+npm create vite@latest my-project -- --template react-ts
+cd my-project
+npm install
+
+2. הורדת tailwind:
+
+npm install tailwindcss @tailwindcss/vite or npm install -D tailwindcss@3.4.1 postcss autoprefixer
+npx tailwindcss init -p
+
+
+3. עידכון קובץ קונפיגורציה:
+
+// tailwind.config.js
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+
+
+4. עידכון קובץ css:
+
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+5. התקנת chakra:
+
+npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+
+
+6. הגדרת provider:
+
+// src/main.tsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { ChakraProvider, defaultSystem } from '@chakra-ui/react';
+import App from './App';
+import './index.css'; // Import Tailwind CSS
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    {/* Disable Chakra's default CSS reset to use Tailwind's Preflight */}
+    <ChakraProvider value={defaultSystem} resetCSS={false}>
+      <App />
+    </ChakraProvider>
+  </React.StrictMode>,
+);
+ 
+
+
+
+
+באמצעות resetCSS={false} ב- ChakraProvider, ניתן להשתמש בשני הכלים ביחד.
+
+ דוגמה לשימוש:
+
+// src/App.tsx
+import { Button, Box } from '@chakra-ui/react';
+
+function App() {
+  return (
+    <div className="p-8">
+      {/* Using Chakra UI component */}
+      <Box mb={4}>
+        <Button colorScheme="blue">Chakra Button</Button>
+      </Box>
+      
+      {/* Using Tailwind CSS utility classes */}
+      <h1 className="text-3xl font-bold text-green-600">
+        Hello Tailwind World!
+      </h1>
+    </div>
+  );
+}
+
+export default App;

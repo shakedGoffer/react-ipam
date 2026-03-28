@@ -1,0 +1,123 @@
+Primary — #F97316 (Almond Orange)
+
+Use for main actions and focus elements
+
+- Primary buttons
+- Active sidebar item
+- Important links
+- Selected menu items
+- Focus state for inputs
+- Important highlights
+- Progress bars
+
+Primary Hover — #EA580C
+
+Use for interaction feedback
+
+- Primary button hover
+- Active menu hover
+- Clickable icons hover
+
+Secondary — #FB7185 (Coral)
+
+Use for supporting actions
+
+- Secondary buttons
+- Accent UI elements
+- Feature highlights
+- Dashboard icons
+
+Secondary Hover — #F43F5E
+
+- Secondary button hover
+- Accent hover states
+
+Background — #FFF7ED (Almond Cream)
+
+Use for page backgrounds
+
+- Main page background
+- Dashboard background
+- Soft UI sections
+
+Surface / Cards — #FFFFFF
+
+Use for content containers
+
+- Cards
+- Tables
+- Forms
+- Modals
+- Dropdowns
+
+Sidebar Background — #FFF3E8
+
+Use for navigation areas
+
+- Sidebar background
+- Navigation panels
+
+Sidebar Hover — #FED7AA
+
+- Sidebar item hover
+- Menu hover background
+
+Border / Divider — #E5E7EB
+
+Use for structure
+
+- Card borders
+- Table borders
+- Dividers
+- Form outlines
+
+Primary Text — #1F2937
+
+Use for main readable text
+
+- Titles
+- Headings
+- Important labels
+- Table text
+
+Secondary Text — #6B7280
+
+Use for supporting text
+
+- Descriptions
+- Metadata
+- Labels
+- Help text
+
+Muted Text — #9CA3AF
+
+Use for low importance
+
+- Placeholder text
+- Disabled labels
+- Subtle information
+
+Status Colors (Important for IPAM)
+Success — #22C55E
+
+- Available IP
+- Successful actions
+- Healthy resources
+
+Warning — #F59E0B
+
+- Reserved IP
+- Warning alerts
+- Capacity nearing limit
+
+Error — #EF4444
+
+- IP conflict
+- System errors
+- Validation errors
+
+Info — #3B82F6
+
+- Assigned IP
+- Informational alerts
+- Documentation links

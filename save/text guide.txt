@@ -1,0 +1,10 @@
+Page title	36px 	 700
+Section title	28px	 600
+Card title	20px	 600
+Nav Active	20px	 600
+Nav Normal	20px	 500
+Body text	16px	 400
+Buttons		16px	 500
+Table Header	15px	 600
+Table text	15p-14x	 400
+Small text	14px	 400

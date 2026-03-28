@@ -1,0 +1,15 @@
+
+app/
+	public/
+	src/
+	assets/
+	components/
+		ui/
+		layout/
+	pages/
+	hooks/
+	router/
+	utils/
+	styles/
+	contex || state/
+	config
